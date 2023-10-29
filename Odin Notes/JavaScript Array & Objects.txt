@@ -1,0 +1,14 @@
+♦♦JavaScript Array & Object
+♥Array/Object Destructuring
+
+	Object = {} , key aand value. method 
+
+8 Array methods
+1.filter
+2.map
+3.forEach
+4.reduce
+5.includes
+6.find
+7.some
+8.every

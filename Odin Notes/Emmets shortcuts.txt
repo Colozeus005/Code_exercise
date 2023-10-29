@@ -1,0 +1,15 @@
+♦♦Emmets
+    •Use some of Emmet’s most useful shortcuts.
+    •Set up custom Emmet keybindings in VS Code.
+ctrl + k => ctrl + s
+Emmet:<action>
+
+♥https://docs.emmet.io/actions/wrap-with-abbreviation/
+     typing ".[...]" creates div
+    button[type="button"]
+    [data-selected]
+    .box>div*3.class${list-item $}
+    header+main+footer
+    header>nav^main+footer
+    form:post>(.class-1>input:text)+(.class-1>input:text)
+    

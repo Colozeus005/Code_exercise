@@ -1,0 +1,196 @@
+JavaScript Before React
+Arrow Functions
+functions DoSomethin(){
+
+}
+export const DoSomething = () =>{
+
+}
+const MyComponent = () => {
+    return <div></div>
+}
+<button onClick={() =>{console.log("hello world")}}>
+
+</button>		/// use for calling function anonymous with no name function
+
+Conditionals using Ternary Operators
+if (true){
+
+} else {
+
+} ||
+let age = 10;
+let name = "Pedro";
+let name = age 10 && "Pedro";
+let name = age 10 || "Pedro";
+let name = age 10 ? "Pedro" : "Jack";
+const Component = () => {
+	return age > 10 ? <div> Pedro </div> : <div>Jack</div>
+}
+if (age>10){
+	name = "Pedro";
+} else {
+	name = "Juan";
+}
+
+Objects | Hash tables hash maps | Dictionaries
+destructure
+const person = {
+	name: "Pedro",
+	age: 20,
+	isMarried: false,
+}
+
+const name = person.name
+const age = person.age
+const isMarried = person.isMarried
+
+const {name, age, isMarried} = person;
+
+
+const person2 = {...person,name: "Jack"}
+
+const names = ["Pedro", "Jack", "jessica"]
+const names2 =[...names, "Joel"]
+
+Map ,Filter
+let names = ["Pedro", "Jack", "jessica"]
+.map()
+.filter()
+.reduce()
+
+names.map((name) => {
+    return name +"1" 
+})
+
+names.map((name) => {
+	retrun <h1> {name} </h1>
+}
+
+names.filter((name) => {{
+   return name !== "Pedro"
+})
+
+Async + Await + Fetch || Promises || axios react library //Understandit
+//Global execution context
+console.log(1)
+console.log(2)
+console.log(3)
+function logger=() =>{
+    console.log(2)
+    console.log(3)
+}	
+//fucntion exec context
+
+Call stack
+ =>	main()
+Web Api's
+ =>	click,set timeou, set interval, scroll, listener
+Event Loop [callback queue]
+ => start queing stuff up to add back to call stack 
+
+**Higher order function is function that takes another functions
+
+function first = () => {
+	console.log(1)
+}
+
+function first = () => {
+	setTimeout(()=>{
+	    console.log(2)
+	}, 0)			///offloading the set timeout ///click,settimeout,setinterval,scroll
+}
+
+function first = () => {
+	console.log(3)
+}
+
+Promises is a completion of an asynchronous function expecting resulr or error.
+const promise = new Promise((resolve, reject)) =>{
+   resolve('we did it')
+   reject("server is down')
+}
+
+promise.then(data =>{
+   console.log(data)
+})
+
+.catch(err => {
+   console.log(err)
+})		//downtime, no credentials, error, not authorized,
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+♦♦Problem Solving
+1. Understand the Problem
+2. Plan
+    	•Does your program have a user interface? What will it look like? What functionality will the 	
+	interface have? Sketch this out on paper.
+   	 •What inputs will your program have? Will the user enter data or will you get input from 	
+	somewhere else?
+    	•What’s the desired output?
+   	 •Given your inputs, what are the steps necessary to return the desired output?
+   	 •The last question is where you will write out an algorithm to solve the problem. You can 	
+	think of an algorithm as a recipe for solving a particular problem. It defines the steps that 	
+	need to be taken by the computer to solve a problem in pseudocode.
+
+3. Pseudocode 
+	is writing out the logic for your program in natural language instead of code. It helps you 
+	slow down and think through the steps your program will have to go through to solve the 
+	problem.
+
+4. Divide and conquer
+ 	Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
+
+
+“Everyone in this country should learn to program a computer, because it teaches you to think.” — Steve Jobs
+“The biggest mistake I see new programmers make is focusing on learning syntax instead of learning how to solve problems.” — V. Anton Spraul
+
+
+1. Understand
+ “If you can’t explain something in simple terms, you don’t understand it.” — Richard Feynman
+
+2. Plan 
+“Given input X, what are the steps necessary to return output Y?”
+Sidenote: Programmers have a great tool to help them with this… Comments!
+
+3, Divide
+Reduce the problem to the point where you know how to solve it and write the solution. Then expand the problem slightly and rewrite the solution to match, and keep going until you are back where you started.” — V. Anton Spraul
+
+4. Stuck
+
+•Sidenote: Another way of reassessing is starting anew. Delete everything and begin again with fresh eyes. I’m serious. You’ll be dumbfounded at how effective this is.
+•Research: Ahh, good ol’ Google. You read that right. No matter what problem you have, someone has probably solved it. Find that person/ solution. In fact, do this even if you solved the problem! (You can learn a lot from other people’s solutions).
+
+Practice
+•“Byron Reeves said ‘If you want to see what business leadership may look like in three to five years, look at what’s happening in online games.’
+
+•Fast-forward to today. Elon [Musk], Reid [Hoffman], Mark Zuckerberg and many others say that games have been foundational to their success in building their companies.” — Mary Meeker (2017 internet trends report)
+
+		THINK LIKE A PROGRAMMER
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+♦♦♦DOM Manipulation and Events
+DOM- Document Object Model
+•Targeting nodes with selectors
+•DOM methods
+	element.querySelector(selector)
+	element.querySelectorAll(selectors)
+Append elements.
+	parentNode.appendChild(childNode)
+	parentNode.insertBefore(newNode, referenceNode)
+Remove elements
+	parentNode.removeChild(child)
+Altering elements
+	const div = document.createElement('div');  
+	/ creates a new div referenced in the variable 'div'
+Adding inline style
+	div.setAttribute('style', 'color: blue; background: white;'); 
+Editing attributes
+	div.setAttribute('id', 'theDiv'); 
+	div.getAttribute('id')
+	div.removeAttribute('id');
+
+
