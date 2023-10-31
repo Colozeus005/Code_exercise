@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Fruit juice size</legend>
+          <p>
+            <input type="radio" name="size" id="size_1" value="small" />
+            <label for="size_1">Small</label>
+          </p>
+          <p>
+            <input type="radio" name="size" id="size_2" value="medium" />
+            <label for="size_2">Medium</label>
+          </p>
+          <p>
+            <input type="radio" name="size" id="size_3" value="large" />
+            <label for="size_3">Large</label>
+          </p>
+        </fieldset>
+    </form>
+      
+    <section>
+        <h2>Contact information</h2>
+        <fieldset>
+          <legend>Title</legend>
+          <ul>
+            <li>
+              <label for="title_1">
+                <input type="radio" id="title_1" name="title" value="A" />
+                Ace
+              </label>
+            </li>
+            <li>
+              <label for="title_2">
+                <input type="radio" id="title_2" name="title" value="K" />
+                King
+              </label>
+            </li>
+            <li>
+              <label for="title_3">
+                <input type="radio" id="title_3" name="title" value="Q" />
+                Queen
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <p>
+          <label for="name">
+            <span>Name: </span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="text" id="name" name="username" required />
+        </p>
+        <p>
+          <label for="mail">
+            <span>Email: </span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="email" id="mail" name="usermail" required />
+        </p>
+        <p>
+          <label for="pwd">
+            <span>Password: </span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="password" id="pwd" name="password" required />
+        </p>
+    </section>
+    <label for="name">
+        Name: <input type="text" id="name" name="user_name" />
+    </label>
+
+    <form>
+        <p>
+          <input type="checkbox" id="taste_1" name="taste_cherry" value="cherry" />
+          <label for="taste_1">I like cherry</label>
+        </p>
+        <p>
+          <input type="checkbox" id="taste_2" name="taste_banana" value="banana" />
+          <label for="taste_2">I like banana</label>
+        </p>
+    </form>
+
+    <div>
+        <label for="username">Name: <span aria-label="required">*</span></label>
+        <input id="username" type="text" name="username" required />
+      </div>
+      
+        
+      
+</body>
+</html>
