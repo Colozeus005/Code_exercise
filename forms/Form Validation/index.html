@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="#" method="get">
+        <div>
+          <label for="user_email">*Email:</label>
+          <input type="email" id="user_email" name="user_email" required>
+        </div>
+        <br>
+      
+        <div>
+          <label for="user_password">*Password:</label>
+          <input type="password" id="user_password" name="user_password" required>
+        </div>
+      
+        <button type="submit">Login</button>
+    </form><br><br>
+
+    <form action="#" method="get">
+    <div>
+        <textarea placeholder="What's happening?" minlength="3" maxlength="20"></textarea>
+    </div>
+    
+    <button type="submit">Tweet</button>
+    </form>
+    
+    <input type="date" max="2019-12-25" ><br>
+    <input type="week" max="2019-W23" step="">
+    <!-- postalzipcode -->
+    <form action="#" method="get">
+    <div>
+        <label for="zip_code">Postal / Zip Code:</label>
+    </div>
+    
+    <input type="text" id="zip_code" name="zip_code" pattern="(\d{5}([\-]\d{4})?)" required>
+    
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    <!-- postalzipcode2 -->
+
+    <form action="#" method="get">
+        <div>
+          <label for="zip_code">Postal / Zip Code:</label>
+        </div>
+      
+        <input type="text" id="zip_code" name="zip_code" pattern="(\d{5}([\-]\d{4})?)" title="Please enter a valid zip code, example: 65251" placeholder="65251" required>
+        
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+    </form><HR></HR>
+
+    <form action="#" method="get">
+    <div>
+        <label for="email">Email</label>
+    </div>
+    <input type="email" id="email" name="email">
+    
+    <div>
+        <label for="website">Website</label>
+    </div>
+    <input type="url" id="website" name="website">
+    
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>

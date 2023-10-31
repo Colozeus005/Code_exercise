@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <form>
+        <label for="choose">Would you prefer a banana or cherry? (required)</label>
+        <input id="choose" name="i-like" required />
+        <button>Submit</button>
+      </form>
+
+    <hr>
+    <form>
+        <label for="choose">Would you prefer a banana or a cherry?</label>
+        <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" />
+        <button>Submit</button>
+    </form>
+
+    <hr>
+    <form>
+        
+        <hr>
+        <div>
+          <label for="number">How many would you like?</label>
+          <input type="number" id="number" name="amount" value="1" min="1" max="10" />
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+      
+</body>
+</html>
