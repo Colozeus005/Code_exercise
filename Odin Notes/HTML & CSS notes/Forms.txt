@@ -1,0 +1,87 @@
+FORMS
+♥FORM BASIC
+Create forms with HTML
+Have a basic idea of how to style forms
+----------------
+     •form element- action ,method
+     We use GET when we want to retrieve something from a server.
+     POST is used when we want to change something on the server, user makes an account or makes a payment on a website.
+
+<form action="example.com/path" method="post">
+    <input type="text">
+    <label for="first_name">First Name:</label>
+</form>
+
+     •Form controls-  such as text boxes, dropdowns, checkboxes and buttons.
+☻input element 
+    <input type="text">
+☻label - to inform users what type of data they are expected to enter. "for" is like "id"
+    <label for="first_name">First Name:</label>
+☻placeholder - text to demonstrate how text should be entered and formatted.
+    placeholder="Bob...
+☻name attribute -serves as a reference to the data inputted into a form control after submitting it. 
+    <input type="text" id="first_name" name="first_name">
+Using form controls outside of forms
+☻The type attribute
+     •Email inputs
+     <label for="user_email">Email Address:</label>
+     <input type="email" id="user_email" name="email" placeholder="you@example.com">
+     •Password inputs
+     <label for="user_password">Password:</label>
+     <input type="password" id="user_password" name="password">
+     •number input 
+     •data input
+☻Text area - rows and cols attributes
+    <textarea></textarea>	rows="20" cols="60"
+☻Selection elements
+    •Select dropdown - renders a dropdown list where users can select an option.
+    •select & option elements
+<select name="Car">
+  <option value="mercedes">Mercedes</option>
+  <option value="tesla">Tesla</option>
+  <option value="volvo">Volvo</option>
+  <option value="bmw">BMW</option>
+  <option value="mini">Mini</option>
+  <option value="ford">Ford</option>
+</select>
+      •<optgroup> element. 
+☻Radio buttons - allow us to create multiple options that the user can choose one of
+☻Checkboxes - they allow multiple options to be selected at once.
+☻Buttons
+     Submit buttons 	<button type="submit">Submit</button>
+     Reset button	<button type="reset">Reset</button>
+     Generic button	<button type="button">Click to Toggle</button>
+
+Organizing form elements
+☻Fieldset element -  is a container element that allows us to group related form inputs into one logical unit.
+☻Legend
+
+Guide forms	•https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides
+		•https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls
+web form		•https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form#test_your_skills!
+
+exercise
+Styling web forms 	•https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms
+Adv form styling	•https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling
+Ui-psuedoclass	•https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes
+
+♦	•https://web.dev/learn/forms/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------

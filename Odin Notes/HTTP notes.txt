@@ -1,0 +1,13 @@
+♦♦♦HTTP ♦♦♦	 •https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+	•Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. •client-server model • stateless protocol
+	•HTTP is a protocol for fetching resources such as HTML documents. A complete document is reconstructed from the different sub-documents fetched, for instance, text, layout description, images, videos, scripts, and more.
+	•cache •proxy
+
+
+
+
+
+
+
+
+

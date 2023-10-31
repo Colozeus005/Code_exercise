@@ -1,0 +1,80 @@
+♣♣♣Intermediate HTML and CSS Course♣♣♣
+♥Flexbox
+	•https://www.youtube.com/watch?v=fYq5PXgSsbE
+	•https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+♥Introductions - HTML & CSS CHEAT SHEETS
+♥Emmet
+♥SVG - “Scalable Vector Graphics”
+	•Extensible Markup Language [XML]
+	•Adobe Illustrator and Figma - apps that can create SVG
+♥TABLES - set of data made up of rows and columns (tabular data)
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+♥Default Styles -  how to use a CSS reset to remove or change those default styles
+	•https://browserdefaultstyles.com/#p
+	•https://meyerweb.com/eric/tools/css/reset/
+♥CSS Units
+	•You’ll learn the difference between relative and absolute units - 
+	px,em & rem , vh & vww
+	•You’ll learn when it’s appropriate to use the different units. -
+	•https://css-tricks.com/fun-viewport-units/
+♥More Text Styles - 
+	font		•https://www.smashingmagazine.com/2020/07/css-techniques-legibility/
+	text-transform   	 •https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+	text-shadow    	•https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+	ellipsis		•https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/
+♥More CSS Properties - 
+	Background    	•https://developer.mozilla.org/en-US/docs/Web/CSS/background
+			•https://codepen.io/webinspect/pen/emBzRd	
+    	Borders 		•https://developer.mozilla.org/en-US/docs/Web/CSS/border
+	Box-shadow    	•https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+	Overflow		•https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+	CSS TRICKS	•https://css-tricks.com/almanac/properties/	-
+	
+♥Advanced Selectors -
+ 	parent and sibling 	 •https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators
+    	pseudo classes and pseudo elements
+     	Attribute selectors -	•https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+     	Structural pseudo-classes
+	CHEAT SHEAT	•https://www.freecodecamp.org/news/css-selectors-cheat-sheet/
+♥Positioning
+     •Static and relative positioning
+     •Absolute positioning
+     •Sticky
+♥CSS Functions
+~ basic parts of a CSS function 	*accepts arguments
+~ calc(), min(), max(), and clamp() functions
+	•https://web.dev/articles/min-max-clamp
+	•https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/
+	•https://www.youtube.com/watch?v=6QwMvf1Jq0M
+♥Custom Properties
+~declare a custom property
+~access a custom property in a rule declaration
+♥Browser Compatibility 
+	•https://caniuse.com/
+♥Frameworks and Preprocessors
+~CSS framework , available frameworks, preprocessor is,  available preprocessors.
+	•https://getbootstrap.com/	~bootstrap
+	•https://tailwindcss.com/	~tailwindcss
+	https://get.foundation/	~foundation
+	•https://bulma.io/		~bulma
+
+ CSS Preprocessor
+
+	•https://sass-lang.com/documentation/	~SASS
+	•https://lesscss.org/			~LESS
+	•https://stylus-lang.com/		~STYLE
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+
+
+
+
+
+
+
+
+
+
