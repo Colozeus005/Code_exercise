@@ -1,0 +1,220 @@
+
+
+/* Test background for diff class section. [Main]
+Intro, Content(card), Quote, Sign-up-section, footer */
+
+/* Start css */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* COLORS of my life*/
+
+
+
+header, .intro, footer {
+    background-color: #bae8e8;
+    color: #272343;
+}
+
+header,.intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+    gap: 15%;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    align-self: flex-start;
+    margin-bottom: -16px;
+}
+
+.sidekick-text {
+    color: #272343;
+    font-size: 18px;
+}
+
+button {
+    background-color: #272343;
+    color: #fffffe;
+    flex: 0 1 auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #272343;
+}
+header ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #272343;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    gap: -15px;
+    
+}
+
+.intro-text {
+    margin: auto 15%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #fffffe;
+    color: #2d334a;
+    width: 100%;
+}
+
+.content {
+    flex-wrap: wrap;
+    margin: 40px auto;
+
+}
+
+.content h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cards  {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+
+
+.content-img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px; 
+    border: 3px solid ;
+    padding: 5px;
+    border-radius: 20px;
+    gap: 15px;
+}
+
+.content-img p {
+    
+    text-decoration: underline;
+}
+
+.content h2:hover {
+    color: #2facb2;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 20px auto;
+    background-color:#e5e7eb;
+    width: 100%;
+}
+
+.quote-div {
+    display: flex;
+    flex-flow: column;
+    margin: auto 25%;
+}
+
+
+.author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-section {
+    color: #272343;
+    display: flex;
+    flex-flow: row wrap;
+    background-color:#d7dcdd;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto; 
+    gap: 32px;
+    padding: 25px;
+}
+
+.sign-up-section p {
+    margin: 5px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    align-self: stretch;
+}
